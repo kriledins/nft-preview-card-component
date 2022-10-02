@@ -1,0 +1,129 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+
+.card {
+    position: absolute;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 375px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 5%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+    .card {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+}
+
+.picture {
+    position: relative;
+    height: fit-content;
+}
+
+.picture img {
+    border-radius: 4%;
+    width: 100%;
+}
+
+.overlay {    
+    content: url("images/icon-view.svg");
+    background-color:hsla(178, 100%, 50%, .5);
+    position: absolute;
+    height: auto;
+    width: 100%;
+    padding: 40%;
+    border-radius: 4%;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.heading {
+    color: hsl(178, 100%, 50%);
+}
+
+.heading:hover {
+    cursor: pointer;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.two-cols {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.eth:before {
+    content: url("images/icon-ethereum.svg");
+    margin-right: 0.5em;
+}
+
+.time-left {
+    color: hsl(215, 51%, 70%);
+}
+
+.time-left:before {
+    content: url("images/icon-clock.svg");
+    margin-right: 0.5em;
+}
+
+.avatar {
+    width: 15%;
+    float: left;
+}
+
+.author {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.author img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    aspect-ratio: 1;
+}
+
+.author a {
+    font-weight: 400;
+    color:hsl(178, 100%, 50%)
+}
+
+.author a:hover {
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
