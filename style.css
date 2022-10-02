@@ -57,6 +57,7 @@ body {
 .heading {
     color: white;
     font-size: 3vh;
+    font-weight: 800;
 }
 
 .heading:hover {
@@ -78,6 +79,7 @@ body {
 
 .eth {
     color: hsl(178, 100%, 50%);
+    font-weight: 800;
 }
 
 .eth:before {
