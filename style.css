@@ -37,7 +37,7 @@ body {
     content: url("images/icon-view.svg");
     background-color:hsla(178, 100%, 50%, .5);
     position: absolute;
-    height: auto;
+    height: 100%;
     width: 100%;
     padding: 40%;
     border-radius: 4%;
@@ -55,10 +55,12 @@ body {
 }
 
 .heading {
-    color: hsl(178, 100%, 50%);
+    color: white;
+    font-size: 3vh;
 }
 
 .heading:hover {
+    color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
 
@@ -115,10 +117,11 @@ body {
 
 .author a {
     font-weight: 400;
-    color:hsl(178, 100%, 50%)
+    color:white;
 }
 
 .author a:hover {
+    color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
 
