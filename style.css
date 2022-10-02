@@ -9,7 +9,7 @@ body {
     max-width: 375px;
     height: fit-content;
     padding: 20px;
-    border-radius: 5%;
+    border-radius: 30px;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .picture img {
-    border-radius: 4%;
+    border-radius: 20px;
     width: 100%;
 }
 
@@ -40,7 +40,7 @@ body {
     height: 100%;
     width: 100%;
     padding: 40%;
-    border-radius: 4%;
+    border-radius: 20px;
     box-sizing: border-box;
     top: 50%;
     left: 50%;
