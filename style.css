@@ -1,10 +1,15 @@
 body {
     background-color: hsl(217, 54%, 11%);
     font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .card {
-    position: absolute;
     background-color: hsl(216, 50%, 16%);
     max-width: 375px;
     height: fit-content;
@@ -12,15 +17,6 @@ body {
     border-radius: 30px;
     overflow: hidden;
     box-sizing: border-box;
-}
-
-@media screen and (min-width: 500px) {
-    .card {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-    }
 }
 
 .picture {
