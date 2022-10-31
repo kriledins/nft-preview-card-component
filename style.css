@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 :root {
     --verydarkbluem: hsl(217, 54%, 11%);
     --verydarkbluec: hsl(216, 50%, 16%);
     --verydarkbluel: hsl(215, 32%, 27%);
     --softblue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
+    --font: 'Outfit', sans-serif;
 }
 
 body {
     background-color: var(--verydarkbluem);
-    font-family: "Outfit", sans-serif;
+    font-family: var(--font);
     display: flex;
     justify-content: center;
     align-items: center;
